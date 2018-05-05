@@ -8,7 +8,7 @@ Java学习内容：语法、框架、库、工具。
 
 - 掌握java语法
 
-- 用Spring编写极简web service
+- 用Spring Boot编写极简web service
 
 	- 读写MySQL
 
