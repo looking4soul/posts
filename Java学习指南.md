@@ -8,11 +8,18 @@ Java学习内容：语法、框架、库、工具。
 
 - 掌握java语法
 
-- 用Spring Boot编写极简web service
+- 用Spring Boot编写web service
 
 	- 读写MySQL
 
 	- 读写Redis
+
+	- loging
+
+	- unit test
+
+	- 读写message queue
+
 
 ## 语法
 
@@ -24,6 +31,12 @@ Spring
 
 - [spring framework project 官方主页](https://projects.spring.io/spring-framework/)
 - [spring boot project 官方主页](https://projects.spring.io/spring-boot/)
+	- [Spring Boot Samples](https://github.com/spring-projects/spring-boot/tree/v2.0.1.RELEASE/spring-boot-samples)
+- 主题
+	- 如何在Spring中使用关系型数据库（以MySQL为例）
+	- 如何在Spring中使用NoSQL数据库（以Redis为例）
+	- 如何在SPring中使用Message Queue（以RabbitMQ为例）
+
 
 ## 库
 
