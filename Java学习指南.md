@@ -23,7 +23,7 @@ Java学习内容：语法、框架、库、工具。
 Spring
 
 - [spring framework project 官方主页](https://projects.spring.io/spring-framework/)
-- [spring boot 官方主页](https://projects.spring.io/spring-boot/)
+- [spring boot project 官方主页](https://projects.spring.io/spring-boot/)
 
 ## 库
 
