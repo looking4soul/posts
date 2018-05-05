@@ -10,6 +10,10 @@ Java学习内容：语法、框架、库、工具。
 
 - 用Spring编写极简web service
 
+-- 读写MySQL
+
+-- 读写Redis
+
 ## 语法
 
 《Thinking in Java》(Java编程思想)
