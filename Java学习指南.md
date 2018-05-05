@@ -11,3 +11,28 @@ Java学习内容：语法、框架。
 ## 框架
 
 Spring
+
+## 库
+
+hibernate
+
+fastjson
+
+gson
+
+Apache HttpClient
+
+Jedis
+
+spring data redis
+
+## 工具
+
+Maven
+
+Gradle
+
+IntelliJ IDEA 
+
+
+
