@@ -87,7 +87,7 @@ mist是以太坊的官方全节点钱包。全节点，指钱包包含了以太�
 
 市面上可供选择的轻量钱包包括：
 
-	- [imToken](https://token.im/)
+- [imToken](https://token.im/)
 
 
 ## 官方文档
