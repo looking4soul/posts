@@ -6,7 +6,7 @@
 
 - <a href="#想用以太坊钱包收发ether">想用以太坊钱包收发ether</a>
 
-- 想安装、运行和管理以太坊节点（geth）
+- <a href="#想安装、运行和管理以太坊节点（geth）">想安装、运行和管理以太坊节点（geth）</a>
 
 - 想挖矿
 
@@ -88,6 +88,20 @@ mist是以太坊的官方全节点钱包。全节点，指钱包包含了以太�
 市面上可供选择的轻量钱包包括：
 
 - [imToken](https://token.im/)
+
+## 想安装、运行和管理以太坊节点（geth）
+
+- 安装geth
+
+以太坊提供二进制geth包，去官网下载解压放到某个路经即可。
+
+[geth下载地址](https://github.com/ethereum/go-ethereum/releases)
+
+为了方便使用，可以放到path中，比如：把下载后，解压出二进制geth，并创建软连接：ln -s /path/to/geth /usr/local/bin/geth
+
+```geth -h```
+
+如果出现帮助说明，则安装成功。
 
 
 ## 官方文档
