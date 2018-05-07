@@ -54,6 +54,9 @@
 
 - remix
 
+	- [remix地址](https://remix.ethereum.org/)
+	- [remix文档地址](https://remix.readthedocs.io/en/latest/)
+
 ## 学习solidity语言以开发智能合约
 
 目前，以太坊的智能合约开发语言是solidity，要写智能合约，需要学会solidity。
@@ -62,12 +65,40 @@
 
 以上文档已经很详细了，本文不重复发明轮子重新写一遍详细的语法说明。而是尝试从高层概括solidity的特性，以及梳理solidity中容易导致疑惑的地方。
 
+内容：
+
+- 高层视图
+- 类型
+- data location
+- assignments behave
+- visibility
+- function修饰
+
+
 ## 学习开发框架(truffle)以提高开发效率
 
 名为框架，但实际上，truffle并不是一个运行时框架，而是一个可以提高开发过程效率的工具。
 
 使用truffle确实可以提高开发效率，但也引入了一层间接，使开发人员在一些地方会有困惑。有利有弊，权衡着用。
 
+- [truffle官方网站](http://truffleframework.com/)
+- [truffle官方网站文档](http://truffleframework.com/docs/)
+- [宠物店例子](http://truffleframework.com/tutorials/pet-shop)
+
+学习内容：
+
+- 安装
+- 创建项目
+- 编辑器
+- 选择节点
+- 编译
+- 部署
+- 测试
+- 复用包
+- 调试
+- 一个实例
+
+@todo
 
 
 
