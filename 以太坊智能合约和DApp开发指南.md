@@ -9,6 +9,7 @@
 - <a href="#想安装、运行和使用以太坊节点（geth）">想安装、运行和使用以太坊节点（geth）</a>
 
 - 想挖矿
+	- 官方文档有一章关于挖矿的，很全了：[Mining](http://www.ethdocs.org/en/latest/mining.html)
 
 - 想开发以太坊应用（包含智能合约的以太坊DApp）
 	- 开发环境搭建
