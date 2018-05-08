@@ -4,6 +4,123 @@
 
 Java学习内容：语法、框架、库、工具。
 
+目录：
+
+- Java语言特性（哪些Java语言特性是Java程序员几乎都必须掌握的）
+	- 基础中的基础：基本类型、表达式、流程控制语句
+	- 面向对象
+	- 泛型
+	- Lambda
+	- 反射
+
+- Java类库（哪些Java类库是Java服务端程序员几乎都必须掌握的）
+	- 核心类库
+		- 集合
+		- IO/NIO
+		- 网络
+		- 并发
+		- 安全
+		- utils
+	- 常用第三方类库
+		-jdk.management
+		- 海量第三方类库
+
+- Java运行机制
+	- 解释
+	- 编译
+	- JIT
+	- JVM基础概念和机制
+		- 类加载机制
+			- Bootstrap
+			- Application
+			- Extension Class-loader
+			- 自定义Class-Loader
+		- 垃圾收集基本原理
+			- SerialGC
+			- Parallel GC
+			- CMS
+			- G1
+			- 适用于什么工作负载
+	- 运行时
+	- 垃圾收集器
+	- 动态编译
+	- 辅助功能
+		- JFR
+	- 服务端运行时
+
+- 工具
+	- 编译器
+		- javac
+		- sjavac
+		- jaotc
+	- 运行时环境
+	- 安全工具
+	- 诊断工具
+		- jmap
+		- jstack
+		- jconsole
+		- jhsdb
+		- jcmd
+	- 监控工具
+	- 辅助工具
+		- jlink
+		- jar
+		- jdeps
+	- 第三方工具
+		- AOT
+			- GCJ
+			- Excelsior JET
+
+- Java生态（什么时候用什么）
+	- Java EE
+	- Spring
+	- Hadoop
+	- Spark
+	- Cassandra
+	- Elastic Search
+	- Maven
+
+- Java书籍
+	- 《深入理解Java虚拟机》周志明
+
+- Java应用开发
+	- SQL数据库编程
+	- NoSQL数据编程
+	- 主流开源框架
+	- 分布式开发
+
+- Java安全
+	- 常见的安全问题和处理方法
+
+- Java性能
+	- 工具、方法论、实践
+
+## Java运行机制
+
+编译 & 类加载 & JIT & JVM 
+
+分层编译
+
+Hotspot JVM
+
+JVM运行模式
+	-Xint 仅解释执行，不编译
+	-Xcomp 不解释执行
+
+编译方式
+	AOT(Ahead-of-Time Compilation) 直接将字节码编译成机器码
+
+分层编译
+
+JVM语言（合规的字节码都可以在JVM上运行）
+	- Clojure
+	- Scala
+	- Groovy
+	- JRuby
+	- Jython
+	- Kotlin?
+
+
 ## 里程碑
 
 - 掌握java语法
@@ -24,6 +141,60 @@ Java学习内容：语法、框架、库、工具。
 ## 语法
 
 《Thinking in Java》(Java编程思想)
+
+## 用Spring Boot编写web service
+
+- [github地址](https://github.com/looking4soul/spring-boot-simple)
+
+- 打印hello world的接口
+
+[spring boot ref文档 getting started](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/htmlsingle/#getting-started)
+
+- 读写SQL数据库
+
+[spring boot ref文档 Working with SQL Databases](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/htmlsingle/#boot-features-sql) 这个文档，仅仅概要地说了下spring boot用了那些技术来访问SQL
+
+[spring data project主页](https://projects.spring.io/spring-data/)
+
+[spring framework ref data access部分](https://docs.spring.io/spring/docs/5.0.5.RELEASE/spring-framework-reference/data-access.html#spring-data-tier)
+
+[Hibernate or JPA or JDBC or?](https://stackoverflow.com/questions/2560500/hibernate-or-jpa-or-jdbc-or?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+
+[Hibernate vs JPA vs JDO - pros and cons of each?](https://stackoverflow.com/questions/530215/hibernate-vs-jpa-vs-jdo-pros-and-cons-of-each?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+
+[Difference between JPA and JDO?](https://stackoverflow.com/questions/2249841/difference-between-jpa-and-jdo?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+
+[Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+
+用orm 
+
+	java中DAO具体指什么
+
+	Java Persistence API (JPA)
+		用spring data jpa	
+		gnostic(meaning you can use it with Hibernate, Toplink, etc)
+		de facto standard
+
+	用hibernate?
+		[hibernate官网](http://hibernate.org/)
+
+用jdbc
+
+	Java Database Connectivit
+
+	Spring Framework JDBC abstraction
+
+		在jdbc上做了一层封装，号称使『tedious』的JDBC API变得可以忍受了。
+
+	jdbc 
+
+		[jdbc oracle文档](http://www.oracle.com/technetwork/java/javase/jdbc/index.html)
+
+JDO?
+	
+	The Java Data Objects (JDO) API is a standard interface-based Java model abstraction of persistence. Application programmers can use JDO technology to directly store Java domain model instances into the persistent store (database)
+
+
 
 ## 框架
 
