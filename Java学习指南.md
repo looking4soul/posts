@@ -142,13 +142,43 @@ JVM语言（合规的字节码都可以在JVM上运行）
 
 《Thinking in Java》(Java编程思想)
 
-## 用Spring Boot编写web service
+## Java关系型数据库编程
 
-- [github地址](https://github.com/looking4soul/spring-boot-simple)
+- JPA
 
-- 打印hello world的接口
+Java Persistence API是一个用以管理关系数据库数据的Java应用程序接口标准。JPA1.0标准于2006年颁布，最新标准是2017年颁布的JPA2.2标准。
 
-[spring boot ref文档 getting started](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/htmlsingle/#getting-started)
+JPA标准文档中指出：JPA的目的是为使用Java领域模型对关系数据库进行管理的Java应用开发者提供对象关系映射（ORM）机制。
+
+
+JPA有哪些实现：
+
+Hibernate: Hibernate是Java的开源ORM框架，实现了JPA标准。
+
+Spring Data JPA: Spring Data JPA是Spring框架的一部分，提供了一个repository抽象，支持所有可用的JPA实现。
+
+其他：Eclipselink、Toplink等
+
+
+如何使用JPA：
+
+[JPA Tutorial](https://www.tutorialspoint.com/jpa/index.htm)：一个入门指南，看完基本可以了解JPA的接口是什么样的
+
+Spring Data JPA:
+
+- Repository
+- Query Method
+
+The goal of the Spring Data repository abstraction is to significantly reduce the amount of boilerplate code required to implement data access layers for various persistence stores.
+
+technology-agnostic interfaces 
+
+
+[Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+[Spring Data Commons - Reference Documentation](https://docs.spring.io/spring-data/commons/docs/current/reference/html/)
+[Spring Data JPA部分 Reference](https://docs.spring.io/spring-data/jpa/docs/2.0.7.RELEASE/reference/html/#reference)
+
+- JDBC
 
 - 读写SQL数据库
 
@@ -164,7 +194,7 @@ JVM语言（合规的字节码都可以在JVM上运行）
 
 [Difference between JPA and JDO?](https://stackoverflow.com/questions/2249841/difference-between-jpa-and-jdo?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
 
-[Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+
 
 用orm 
 
@@ -195,6 +225,13 @@ JDO?
 	The Java Data Objects (JDO) API is a standard interface-based Java model abstraction of persistence. Application programmers can use JDO technology to directly store Java domain model instances into the persistent store (database)
 
 
+## 用Spring Boot编写web service
+
+- [github地址](https://github.com/looking4soul/spring-boot-simple)
+
+- 打印hello world的接口
+
+[spring boot ref文档 getting started](https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/htmlsingle/#getting-started)
 
 ## 框架
 
@@ -230,6 +267,4 @@ Maven
 Gradle
 
 IntelliJ IDEA 
-
-
 
