@@ -142,6 +142,22 @@ JVM语言（合规的字节码都可以在JVM上运行）
 
 《Thinking in Java》(Java编程思想)
 
+### 并发
+
+- Runnable: 定义任务的接口
+- Thread: 线程，任务在线程中运行
+- Executor: 执行者，管理线程
+- Callable: 定义带返回值的任务
+- 竞争条件：两个或多个任务竞争响应某个条件，因此产生冲突或不一致结果的情况
+- 锁
+	- synchronized方法
+	- Lock对象
+	- synchronized(object)临界区
+- 原子性：基本类型(long和double必须加volatile)的简单操作（赋值、返回）可视为原子性
+- 可视性：如果将一个域声明为volatile，那么只要对这个域产生了写操作，那么所有的读操作就可以看到这个修改
+- 原子类（AtomicInteger类等）：提供原子性操作，一般在优化性能时才用到
+- 线程本地存储(ThreadLocal类)
+
 ## Java关系型数据库编程
 
 - JPA
@@ -179,6 +195,16 @@ technology-agnostic interfaces
 [Spring Data JPA部分 Reference](https://docs.spring.io/spring-data/jpa/docs/2.0.7.RELEASE/reference/html/#reference)
 
 - JDBC
+
+[JDBC教程(一个快速教程)](https://www.yiibai.com/jdbc/)
+[oracle官网jdbc教程](http://www.oracle.com/technetwork/java/javase/jdbc/index.html)
+
+- 连接池
+
+[JDBC实例--JDBC连接池技术解密，连接池对我们不再陌生](https://www.cnblogs.com/liuhongfeng/p/4171785.html)
+[Java中三种流行的数据连接池](https://blog.csdn.net/code_du/article/details/24419003)
+[JDBC 进阶——连接池](https://www.jianshu.com/p/ad0ff2961597)
+
 
 - 读写SQL数据库
 
@@ -267,4 +293,41 @@ Maven
 Gradle
 
 IntelliJ IDEA 
+
+## 源码阅读
+
+spring
+spring mvc
+tomcat
+netty
+util
+	ArrayList,LinkedList,HashMap,LinkedHashMap,,HashTable,HashSet
+	ConcurrentHashMap？
+lang
+	String,Object,StringBuffer,StringBuilder,Integer
+Google guava
+junit
+okhttp
+lucene
+elasticsearch
+
+### 如何阅读spring源码
+
+可以先看一下黄勇老师的《架构探险——从零开始写Java Web框架》
+
+了解完Spring架构、模块以及模块对应的功能后，可以针对性阅读部分源码。
+
+推荐《Spring 源码深度解析》，很不错的一本书，目前正在看
+
+github: https://github.com/spring-projects/spring-framework
+
+## 有用的资源
+
+[Java 9 API](https://docs.oracle.com/javase/9/docs/api/overview-summary.html)
+
+## 参考资料
+
+[有哪些 Java 源代码看了后让你收获很多，代码思维和能力有较大的提升？](https://www.zhihu.com/question/61539640)
+
+[怎么阅读Spring源码？](https://www.zhihu.com/question/21346206)
 

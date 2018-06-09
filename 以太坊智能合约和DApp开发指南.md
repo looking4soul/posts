@@ -11,11 +11,11 @@
 - 想挖矿
 	- 官方文档有一章关于挖矿的，很全了：[Mining](http://www.ethdocs.org/en/latest/mining.html)
 
-- 想开发以太坊应用（包含智能合约的以太坊DApp）
-	- 开发环境搭建
-	- 学习solidity语言以开发智能合约
+- <a href="#想开发以太坊应用">想开发以太坊应用</a>
+	- <a href="#开发环境搭建">开发环境搭建</a>
+	- <a href="#学习solidity语言以开发智能合约">学习solidity语言以开发智能合约</a>
+	- <a href="#web3.js接口">web3.js接口</a>
 	- 学习开发框架(truffle)以提高开发效率
-	- web3.js接口
 	- 安全
 	- 项目示例
 	- 工具
@@ -88,7 +88,8 @@ mist是以太坊的官方全节点钱包。全节点，指钱包包含了以太�
 
 市面上可供选择的轻量钱包包括：
 
-- [imToken](https://token.im/)
+[imToken](https://token.im/)
+[MetaMask](https://metamask.io/)
 
 ## <a name="想安装、运行和使用以太坊节点（geth）">想安装、运行和使用以太坊节点（geth）</a>
 
@@ -134,33 +135,16 @@ peer信息：```admin.peers```
 
 本节点信息：```admin.nodeInfo```
 
-## 官方文档
+## <a name="想开发以太坊应用">想开发以太坊应用</a>
 
-地址：
-
-- [以太坊官方文档](http://www.ethdocs.org/en/latest/)
-
-官方文档详细介绍了以太坊节点的运行、管理，挖矿，智能合约和DApp的开发。
-
-注意：这个文档，有些部分有些混乱和过时。
-
-## 节点运行和管理
-
-- geth
-
-- 网络管理
-
-- 搭建私有网络
-
-
-## 开发环境搭建
+### <a name="开发环境搭建">开发环境搭建</a>
 
 - remix
 
-	- [remix地址](https://remix.ethereum.org/)
+	- [remix在线地址](https://remix.ethereum.org/)
 	- [remix文档地址](https://remix.readthedocs.io/en/latest/)
 
-## 学习solidity语言以开发智能合约
+### <a name="学习solidity语言以开发智能合约">学习solidity语言以开发智能合约</a>
 
 目前，以太坊的智能合约开发语言是solidity，要写智能合约，需要学会solidity。
 
@@ -177,8 +161,9 @@ peer信息：```admin.peers```
 - visibility
 - function修饰
 
+### <a name="web3.js接口">web3.js接口</a>
 
-## 学习开发框架(truffle)以提高开发效率
+### 学习开发框架(truffle)以提高开发效率
 
 名为框架，但实际上，truffle并不是一个运行时框架，而是一个可以提高开发过程效率的工具。
 
@@ -203,7 +188,7 @@ peer信息：```admin.peers```
 
 @todo
 
-## 项目示例
+### 项目示例
 
 - helloworld
 - love lock (@todo)
@@ -216,6 +201,31 @@ peer信息：```admin.peers```
 ## 应用
 
 - [白皮书中提到的应用](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6#%E5%BA%94%E7%94%A8)
+
+## 进展
+
+- sharding
+- casper
+- plasma
+
+## 官方文档
+
+地址：
+
+- [以太坊官方文档](http://www.ethdocs.org/en/latest/)
+
+官方文档详细介绍了以太坊节点的运行、管理，挖矿，智能合约和DApp的开发。
+
+注意：这个文档，有些部分有些混乱和过时。
+
+## 节点运行和管理
+
+- geth
+
+- 网络管理
+
+- 搭建私有网络
+
 
 
 
